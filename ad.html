@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>广告|卡玛丹</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/png" href="帆船.png">
+  <!--/v/帆船.png-->
+  <link rel="stylesheet" href="ad.css">
+  <link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="卡玛丹广告">
+</head>
+
+<body class="no-js" itemscope="" itemtype="http://schema.org/WebSite">
+  <meta itemprop="url" content="https://kamadan.github.io/ad">
+  <div id="nav" class="center-row">
+    <a id="home-link" href="/">
+      <img id="home-icon" alt="Logo" width="46" height="44" src="帆船.png">
+      <!-- /v/帆船.png -->
+      <span id="home-text">广告 (卡玛丹)</span>
+    </a>
+    <form id="search-form" action="/search" method="get" role="search">
+      <div id="search-bar">
+        <input type="search" id="search-input" itemprop="query-input" name="query" autocomplete="on" title="输入搜索词" autofocus="" placeholder="">
+      </div>
+      <div>
+        <button type="submit" id="search-button" title="搜索"></button>
+      </div>
+    </form>
+    <button id="wiki-button" title="百科主页"></button>
+    <button id="dictionary-button" title="百科词典"></button>
+    <button id="notification-button" class="disabled" title="自动提示开关"></button>
+  </div>
+  <div id="page">
+    <div id="results-header" class="center-row">
+      <span id="search-info"></span>
+      <div class="space"></div>
+      <button id="translate-button" class="" title="字母版"></button>
+      <div id="connection-indicator"></div>
+    </div>
+    <div id="listings" class="center-row">
+      <div class="fixed-top">
+        <div id="scroll-indicator" title="查阅新增广告">
+          <div id="incoming-count"></div>
+        </div>
+      </div>
+      <main>
+        <table id="current-wrapper">
+          <tbody id="current"></tbody>
+        </table>
+      </main>
+    </div>
+    <div class="space"></div>
+    <div id="pagination"></div>
+  </div>
+  <script>
+    var sc_project = 10449297;
+    var sc_invisible = 1;
+    var sc_security = "bf72af9f";
+    window.addEventListener('load', function () {
+      var s = document.createElement('script');
+      s.src = 'ad.js';
+      document.body.appendChild(s);
+
+      var s2 = document.createElement('script');
+      s2.src = '统计.js'
+      document.body.appendChild(s2)
+    });
+  </script>
+</body>
+
+</html>
